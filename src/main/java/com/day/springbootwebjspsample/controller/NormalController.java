@@ -8,6 +8,6 @@ public class NormalController {
 
 	@RequestMapping("/hot-fix")
 	public String index(){
-		return "hot-fiex";
+		return "hot-fix";
 	}
 }
