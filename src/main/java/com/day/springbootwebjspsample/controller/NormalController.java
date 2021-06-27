@@ -8,6 +8,7 @@ public class NormalController {
 
 	@RequestMapping("/hot-fix")
 	public String index(){
+		System.out.println("hot-fix");
 		return "hot-fix";
 	}
 }
